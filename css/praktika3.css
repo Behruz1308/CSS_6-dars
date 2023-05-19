@@ -1,0 +1,98 @@
+body{
+    background-color: darkgrey;
+}
+.wrap{
+    width: 1200px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+}
+p{
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+    text-align: center;
+}
+.card1{
+     float: left;
+     width: 200px;
+     height: 500px;
+     border: 1px solid black;
+     transform: rotateZ(-30deg);
+     z-index: 1;
+    position: absolute;
+    left: 300px;
+    background-color: white;
+    transition: 1.5s ease;
+
+ }
+.card2{
+    float: left;
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 40px;
+    transform: rotateZ(-10deg);
+    z-index: 2;
+    position: absolute;
+    left: 350px;
+    background-color: white;
+    transition: 1.5s ease;
+}
+.card3{
+     float: left;
+     width: 200px;
+     height: 500px;
+     border: 1px solid black;
+     margin-left: 530px;
+     z-index: 3;
+    position: absolute;
+    background-color:white;
+    transition: 1.5s ease;
+ }
+.card4{
+    float: left;
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 40px;
+    transform: rotateZ(10deg);
+    z-index: 2;
+    position: absolute;
+    right: 350px;
+    background-color: #fff;
+    transition: 1.5s ease;
+}
+.card5{
+    float: left;
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 40px;
+    transform: rotateZ(30deg);
+    z-index: 1;
+    position: absolute;
+    right: 300px;
+    background-color: #ffffff;
+    transition: 1.5s ease;
+}
+.card1:hover{
+    transform: scale(1.2);
+    z-index: 4;
+}
+.card2:hover{
+    transform: scale(1.2);
+    z-index: 4;
+}
+.card3:hover{
+    transform: scale(1.2);
+    z-index: 4;
+}
+.card4:hover{
+    transform: scale(1.2);
+    z-index: 4;
+}
+.card5:hover{
+    transform: scale(1.2);
+    z-index: 4;
+}
